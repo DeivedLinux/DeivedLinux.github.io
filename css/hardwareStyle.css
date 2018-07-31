@@ -1,0 +1,134 @@
+body {
+	background: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+	font-weight: 300;
+    overflow-x: hidden;
+}
+
+html,body {
+  width: 100%;
+  height: 100%;
+}
+
+
+/*---------------------------------------
+    Typorgraphy              
+-----------------------------------------*/
+
+h1,h2,h3,h4,h5,h6 {
+  font-style: normal;
+  font-weight: 300;
+}
+
+h1,h2,h3 {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 42px;
+  padding-bottom: 14px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-size: 42px;
+  line-height: 52px;
+  margin-top: 0px;
+}
+
+h3 {
+  font-size: 26px;
+  line-height: 32px;
+  padding-bottom: 6px;
+}
+
+h4 {
+  color: #999;
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-top: 6px;
+}
+
+h5 {
+  color: #666666;
+}
+
+strong {
+  color: #232B2B;
+  font-weight: normal;
+}
+
+p{
+    color: #888;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+
+#Home_Hardware .gallery .control-button {
+  color: #ccc;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+#Home_Hardware .gallery .control-button:hover {
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+}
+#Home_Hardware .gallery{
+ 
+
+  position: relative;
+  width: 800px;
+  height: 470px;
+  margin-top: 100px;
+  margin-bottom: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  animation: Slide 5s infinite;
+  opacity: 1;
+  transition: opacity .5s;
+  overflow: hidden;
+  text-align: center;
+}
+
+
+
+#Home_Hardware .gallery .control-button {
+  display: inline-block;
+  margin: 0 .02em;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+  transition: color .1s;
+}
+
+#Home_Hardware .gallery .controls {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+@keyframes Slide{
+
+  0%,30%{
+    background: url("../images/frdm-25.jpg") no-repeat;
+  }
+
+  35%,65%{
+    background: #001475;
+  }
+
+  70%,100%{
+
+    background: #454575;
+  }
+}
+
+
+
+
