@@ -6,6 +6,7 @@
   position: relative;
   margin: 100px auto;
   background: #157452;
+  border: 3px solid #73AD21;
 
 }
 
@@ -64,6 +65,7 @@
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
+  position: static;
   height: 15px;
   width: 15px;
   margin: 0 2px;
