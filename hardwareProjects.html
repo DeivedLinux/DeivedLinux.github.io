@@ -60,31 +60,39 @@
 
 <!-- Home-Hardware -->
 
-<section id="Home_Hardware">
-	
-	<div class="gallery">
-		<div id="item-1" class="control-operator"> </div>
-		<div id="item-2" class="control-operator"> </div>
-		<div id="item-3" class="control-operator"> </div>
+<section id="Home_Hardware" class="parallax-section">
+	<div class="SlideShow-Container">
+		<div class="wow">
+			<div class="mySlides fade">
+				<div class="numbertext">1 / 3</div>
+				<img src="images/1.jpg" style="width: 100%">
+				<div class="text">Caption Text</div>
+			</div>
 
-		<figure class="item">
-			<h1 img src="../images/1.jpg"></h1>
-		</figure>
+			<div class="mySlides fade">
+				<div class="numbertext">2 / 3</div>
+				<img src="images/2.jpg" style="width: 100%">
+				<div class="text">Caption Two</div>
+			</div>
 
-		<figure class="item">
-			<h1 img src="../images/frdm-25.jpg"></h1>
-		</figure>
+			<div class="mySlides fade">
+				<div class="numbertext">3 / 3</div>
+				<img src="images/3.jpg" style="width: 100%">
+				<div class="text">Caption Tree</div>
+			</div>
 
-		<figure class="item">
-			<h1 img src="../images/frdm-25.jpg"></h1>
-		</figure>
-
-		<div class="controls">
-            <a href="#item-1" class="control-button">.</a>
-            <a href="#item-2" class="control-button">.</a>
-            <a href="#item-3" class="control-button">.</a>
-        </div>
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
 	</div>
+
+	<br>
+	<div style="text-align:center">
+		<span class="dot" onclick="currentSlide(1)"></span> 
+		<span class="dot" onclick="currentSlide(2)"></span> 
+		<span class="dot" onclick="currentSlide(3)"></span> 
+	</div>
+
 
 </section>
 
@@ -125,7 +133,7 @@
 <script src="js/smoothscroll.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/custom.js"></script>
-
+<script src="js/ShowSlidesCode.js"></script>
 
 </body>
 </html>
