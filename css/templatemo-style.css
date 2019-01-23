@@ -110,7 +110,7 @@ p {
 #experience,
 #education,
 #contact,
-#award {
+#awards {
   position: relative;
 }
 
@@ -119,18 +119,18 @@ p {
 #experience .container,
 #service .container,
 #education .container,
-#contact .container 
+#contact .container, 
 #awards .container{
   width: 100%;
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
 }
 
 
 #experience .experience-thumb,
 #education .education-thumb, 
 #awards .awards-thumb {
-  padding: 22px 42px 42px 42px;
+  padding: 22px 50px 42px 42px;
 }
 
 #service,
@@ -359,7 +359,7 @@ a:hover, a:active, a:focus {
 }
 
 #home .home-img {
-  background: url('../images/25345975.jpg') no-repeat;
+  background: url('../images/perfil.jpg') no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   width: 100%;
@@ -673,7 +673,8 @@ footer {
   #experience .container,
   #service .container,
   #education .container,
-  #contact .container {
+  #contact .container,
+  #awards .container {
     padding-right: 15px;
     padding-left: 15px;
   }
